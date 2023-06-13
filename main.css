@@ -22,13 +22,7 @@ header{
     color: white;
 }
 
-nav{
-    background-color: orangered;
-    padding: 16px 0;
-    display: none;
-}
-
-nav li{
+header ul {
     list-style: none;
     display: inline;
     margin-right: 16px;
@@ -37,13 +31,13 @@ nav li{
     text-transform: uppercase;
 }
 
-nav li a{
-    color: white;
+header li a{
+    color: black;
     text-decoration: none;
 }
 
 .menu-hamburguer{
-    width: 32px;
+    width: 42px;
     cursor: pointer;
 }
 
@@ -54,18 +48,6 @@ nav li a{
     display: block;
     margin-bottom: 4px;
 }
-
-
-/*header nav li{
-    display: inline;
-    margin-left: 16px;
-    font-size: 18px;
-}
-
-header nav li a{
-    color: white;
-    text-decoration: none;
-}*/
 
 .container{
     max-width: 1280px;
