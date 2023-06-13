@@ -22,7 +22,41 @@ header{
     color: white;
 }
 
-header nav li{
+nav{
+    background-color: orangered;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+.menu-hamburguer{
+    width: 32px;
+    cursor: pointer;
+}
+
+.menu-hamburguer span{
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px;
+}
+
+
+/*header nav li{
     display: inline;
     margin-left: 16px;
     font-size: 18px;
@@ -31,7 +65,7 @@ header nav li{
 header nav li a{
     color: white;
     text-decoration: none;
-}
+}*/
 
 .container{
     max-width: 1280px;
@@ -122,6 +156,10 @@ form textarea{
     height: 150px;
 }
 
+section .container-block{
+    display: flex;
+}
+
 section h3{
     margin-bottom: 16px;
 }
@@ -151,19 +189,43 @@ footer{
     color: white;
 }
 
-.prod img{
-    height: 240px;
-    width: 22%;
-    justify-content: space-between;
-    margin-top: 5px;
-}
-
 #products .container{
     display: block;
 }
 
-.prod li{
-    display: inline;
-    margin-right: 5px;
-    margin-left: 5px;
+.boots, .jackets {
+    background-color: rgba(255, 68, 0, 0.733);
+    padding: 12px;
 }
+
+.sneakers, .shirts{
+    padding: 12px;
+}
+
+.boots h3, .jackets h3{
+    color: black ;
+    font-weight: bold;
+}
+
+.boots p{
+    width: 100%;
+    padding: 8px;
+}
+
+#products img{
+    width: 350px;
+    height: 250px;
+}
+
+.sneakers-det{
+    display: flex;
+}
+
+.jackets-det{
+    display: flex;
+}
+
+.shirts-det{
+    display: flex;
+}
+

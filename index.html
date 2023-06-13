@@ -6,18 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lira Multimarcas</title>
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    
+
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Lira Multimarcas</h1>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
             <nav>
-                <ul>
+                <ul class="container">
                     <li>
                         <a href="#about" > Sobre a loja</a>
                     </li>
                     <li>
                         <a href="#products" > Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#famous" > Famosos</a>
                     </li>
                     <li>
                         <a href="#contact" > Contato</a>
@@ -52,32 +63,130 @@
     <section id="products">
         <div class="container">
             <h2>Produtos</h2>
-            <ul class="prod">
-                <li>
-                    <img src="imagens/santos.jpg" />
-                </li>
-                <li>
-                    <img src="imagens/chuteira_azul.jpg" />
-                </li>
-                <li>
-                    <img src="imagens/jordan_red.png" />
-                </li>
-                <li>
-                    <img src="imagens/jaqueta_azul.jpg" />
-                </li>
-                <li>
-                    <img src="imagens/portugal.jpg" />
-                </li>
-                <li>
-                    <img src="imagens/chuteira_dourada.jpg" />
-                </li>
-                <li>
-                    <img src="imagens/air_white.jpg" />
-                </li>
-                <li>
-                    <img src="imagens/jaqueta_vermelha.jpg" />
-                </li>
-            </ul>
+            <div class="boots container-block">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="boots-text">
+                            <h3>Chuteiras</h3>
+                                <p>
+                                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia, incidunt nam impedit ipsum optio magnam voluptates est unde voluptatem alias fugit nihil voluptas dicta quo sequi porro a nemo!
+                                </p> 
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        
+                        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div id="carousel-inner">
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block  " src="./imagens/chuteira_azul.jpg" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block  " src="./imagens/chuteira_dourada.jpg" alt="">
+                                    
+                                </div><div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block  " src="./imagens/chuteira_azul.jpg" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block  " src="./imagens/chuteira_dourada.jpg" alt="">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sneakers container-block">
+                <div class="row">
+                    <div class="col-8">
+                        <h3>Tênis</h3>  
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia, incidunt nam impedit ipsum optio magnam voluptates est unde voluptatem alias fugit nihil voluptas dicta quo sequi porro a nemo!
+                        </p>                  
+                    </div>
+                    <div class="col-4">
+                        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div id="carousel-inner">
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block  " src="./imagens/jordan_red.png" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block  " src="./imagens/air_white.jpg" alt="">
+                                    
+                                </div><div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block  " src="./imagens/jordan_red.png" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block  " src="./imagens/air_white.jpg" alt="">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="jackets container-block">
+                <div class="row">
+                    <div class="col-8">
+                        <h3>Jaquetas</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia, incidunt nam impedit ipsum optio magnam voluptates est unde voluptatem alias fugit nihil voluptas dicta quo sequi porro a nemo!
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div id="carousel-inner">
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block " src="./imagens/jaqueta_azul.jpg" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block" src="./imagens/jaqueta_vermelha.jpg" alt="">
+                                    
+                                </div><div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block " src="./imagens/jaqueta_azul.jpg" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block" src="./imagens/jaqueta_vermelha.jpg" alt="">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="shirts container-block">
+                <div class="row">
+                    <div class="col-8">
+                        <h3>Camisas de time</h3>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia officia, incidunt nam impedit ipsum optio magnam voluptates est unde voluptatem alias fugit nihil voluptas dicta quo sequi porro a nemo!
+                        </p>
+                    </div>
+                    <div class="col-4">
+                        <div id="carousel-exemplo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div id="carousel-inner">
+                                <div data-bs-interval="3000" class="carousel-item active">
+                                    <img class="d-block " src="./imagens/santos.jpg" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block" src="./imagens/portugal.jpg" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block " src="./imagens/santos.jpg" alt="">
+                                    
+                                </div>
+                                <div data-bs-interval="3000" class="carousel-item">
+                                    <img class="d-block" src="./imagens/portugal.jpg" alt="">
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section id="contact">
@@ -131,5 +240,10 @@
             </p>
         </div>
     </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
